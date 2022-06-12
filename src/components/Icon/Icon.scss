@@ -1,0 +1,17 @@
+@import "@styles/colors";
+@import "~bootstrap";
+
+.icon {
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+
+  &-background-white {
+    background-color: #e6e7e8;
+    color: $gray-900 !important;
+  }
+
+  &-background-turquoise {
+    background-color: $turquoise;
+  }
+}

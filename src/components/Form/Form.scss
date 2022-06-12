@@ -1,0 +1,13 @@
+.form-send {
+  background-position: -130px 0;
+  background-repeat: no-repeat;
+
+  &__input {
+    border-radius: 1.8rem !important;
+  }
+
+  &__textarea {
+    border-radius: 1.8rem !important;
+    min-height: 10rem !important;
+  }
+}

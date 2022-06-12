@@ -1,0 +1,8 @@
+@import "~bootstrap";
+
+.footer-contacts {
+  &__link {
+    color: $gray-700 !important;
+    text-decoration: none;
+  }
+}

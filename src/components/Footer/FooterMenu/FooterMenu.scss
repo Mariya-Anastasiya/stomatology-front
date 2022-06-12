@@ -1,0 +1,8 @@
+@import "~bootstrap";
+
+.footer-menu {
+  &__item {
+    text-decoration: none;
+    color: $gray-700;
+  }
+}

@@ -1,0 +1,14 @@
+@import "@styles/colors";
+
+.navigate {
+  &-phone {
+    &__icon {
+      background-color: $turquoise;
+    }
+  }
+}
+
+.link {
+  color: inherit;
+  text-decoration: none;
+}

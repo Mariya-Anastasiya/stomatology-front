@@ -1,0 +1,34 @@
+@import "@styles/colors";
+@import "~bootstrap";
+
+.button {
+  border-radius: 1.8rem !important;
+  position: relative;
+
+  &-background {
+    &-white {
+      background-color: transparent !important;
+      color: $gray-900 !important;
+      border: 2px solid $turquoise !important;
+    }
+
+    &-turquoise {
+      background-color: $turquoise !important;
+      color: white !important;
+    }
+  }
+
+  &::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba($color: $gray-700, $alpha: .5);
+    border-radius: 1.8rem !important;
+    transition: top 1s, left 1s;
+    display: none;
+  }
+}
